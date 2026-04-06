@@ -133,7 +133,7 @@ export default function Sidebar() {
                 </div>
 
                 <a
-                    href="/cv.pdf"
+                    href="/images/cv.pdf"
                     download="Anouar_Baoutoul_CV.pdf"
                     className="w-10 h-10 lg:w-12 lg:h-12 flex items-center justify-center rounded-xl text-gray-300 bg-gray-900 border border-gray-700 hover:bg-gray-800 hover:text-white transition-all mt-3"
                     aria-label="Télécharger le CV"
@@ -196,7 +196,7 @@ export default function Sidebar() {
                             </div>
                             <div className="p-6 border-t border-gray-800">
                                 <a
-                                    href="/cv.pdf"
+                                    href="/images/cv.pdf"
                                     download="Anouar_Baoutoul_CV.pdf"
                                     className="w-full flex items-center gap-3 px-4 py-2 rounded-lg bg-gray-900 text-gray-200 mb-3"
                                 >
