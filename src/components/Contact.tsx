@@ -142,7 +142,7 @@ export default function Contact() {
 
             {/* CV */}
             <a
-              href="/cv.pdf"
+              href="/images/cv.pdf"
               download="Anouar_Baoutoul_CV.pdf"
               className="flex items-center gap-2 px-6 py-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white font-semibold hover:scale-105 transition shadow border border-gray-200 dark:border-gray-700"
             >
