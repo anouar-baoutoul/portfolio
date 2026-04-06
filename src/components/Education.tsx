@@ -39,7 +39,7 @@ export default function Education() {
                   <div className="h-3 w-3 rounded-full bg-white dark:bg-black border-2 border-gray-300 dark:border-gray-700" />
                 </div>
 
-                <div className="bg-white/80 dark:bg-gray-950/70 backdrop-blur rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 p-6 hover:shadow-md transition-shadow">
+                <div className="bg-white/80 dark:bg-gray-950/70 backdrop-blur rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 p-6 will-change-transform transition-all duration-150 hover:-translate-y-1 hover:shadow-[0_18px_50px_-30px_rgba(59,130,246,0.65)] hover:border-blue-300/60 dark:hover:border-cyan-500/35">
                   <div className="flex items-start justify-between gap-6">
                     <div className="min-w-0 flex items-start gap-4">
                       <div className="w-10 h-10 rounded-lg bg-blue-100/80 dark:bg-cyan-900/30 border border-blue-200 dark:border-cyan-800 flex items-center justify-center shrink-0 mt-0.5 overflow-hidden">

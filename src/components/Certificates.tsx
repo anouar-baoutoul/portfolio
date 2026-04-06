@@ -32,7 +32,7 @@ export default function Certificates() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="group bg-white dark:bg-gray-950 rounded-2xl p-6 border border-gray-200 dark:border-gray-800 hover:shadow-xl hover:border-blue-300 dark:hover:border-blue-700 transition-all hover:-translate-y-1"
+                            className="group bg-white dark:bg-gray-950 rounded-2xl p-6 border border-gray-200 dark:border-gray-800 hover:-translate-y-2 hover:scale-[1.01] will-change-transform transition-all duration-150 hover:shadow-[0_22px_70px_-35px_rgba(37,99,235,0.85)] hover:border-blue-300/70 dark:hover:border-blue-700/60 dark:hover:shadow-[0_22px_70px_-35px_rgba(34,211,238,0.35)]"
                         >
                             <div className="flex items-start gap-4">
                                 <div className="w-11 h-11 rounded-xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 flex items-center justify-center shrink-0 overflow-hidden">

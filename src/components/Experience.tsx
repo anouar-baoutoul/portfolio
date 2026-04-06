@@ -36,7 +36,7 @@ export default function Experience() {
                 <span className="block h-3 w-3 rounded-full bg-blue-500 dark:bg-cyan-300 shadow-[0_0_12px_2px_rgba(59,130,246,0.45)] dark:shadow-[0_0_12px_2px_rgba(34,211,238,0.7)]" />
               </div>
 
-              <div className="w-full md:w-[46%] rounded-2xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-[#0a1020] p-6 shadow-md dark:shadow-[0_0_0_1px_rgba(103,232,249,0.06),0_20px_40px_rgba(0,0,0,0.45)] backdrop-blur-sm">
+              <div className="w-full md:w-[46%] rounded-2xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-[#0a1020] p-6 shadow-md dark:shadow-[0_0_0_1px_rgba(103,232,249,0.06),0_20px_40px_rgba(0,0,0,0.45)] backdrop-blur-sm will-change-transform transition-all duration-150 hover:-translate-y-1 hover:shadow-[0_22px_70px_-35px_rgba(34,211,238,0.30)] hover:border-blue-300/55 dark:hover:border-cyan-500/35">
                 <p className="text-xs uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-3">{exp.period}</p>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{exp.title}</h3>
                 <p className="text-sm text-blue-600 dark:text-cyan-300 mt-1">{exp.location}</p>

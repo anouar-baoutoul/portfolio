@@ -21,6 +21,8 @@ export default function Sidebar() {
     const [mounted, setMounted] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState("hero");
+    const [hoveredSection, setHoveredSection] = useState<string | null>(null);
+    const indicatorSection = hoveredSection ?? activeSection;
 
     useEffect(() => {
         setMounted(true);
@@ -65,6 +67,8 @@ export default function Sidebar() {
     const scrollTo = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
+          
+            setActiveSection(id);
             const yOffset = 24;
             const y =
                 element.getBoundingClientRect().top + window.scrollY - yOffset;
@@ -101,15 +105,18 @@ export default function Sidebar() {
                 </motion.div>
 
                 <div className="flex-1 w-full flex flex-col items-center justify-center space-y-4">
+                    {/* Quand la souris survole un bouton, l'indicateur bouge immédiatement. */}
                     {navItems.map((item, index) => (
                         <motion.button
                             key={item.id}
                             onClick={() => scrollTo(item.id)}
+                            onMouseEnter={() => setHoveredSection(item.id)}
+                            onMouseLeave={() => setHoveredSection(null)}
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: index * 0.05 }}
                             className={`relative w-10 h-10 lg:w-12 lg:h-12 flex items-center justify-center rounded-xl transition-all duration-300 group ${
-                                activeSection === item.id
+                                indicatorSection === item.id
                                     ? "bg-blue-500 text-white shadow-lg shadow-blue-500/30"
                                     : "text-gray-400 hover:bg-gray-800 hover:text-blue-400"
                             }`}
@@ -119,7 +126,7 @@ export default function Sidebar() {
                             <span className="absolute left-full ml-2 bg-gray-900 text-white text-xs px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-50 shadow-lg">
                                 {item.label}
                             </span>
-                            {activeSection === item.id && (
+                            {indicatorSection === item.id && (
                                 <motion.div
                                     layoutId="activeIndicator"
                                     className="absolute -left-1 w-1 h-6 bg-blue-500 rounded-full"
@@ -135,11 +142,14 @@ export default function Sidebar() {
                 <a
                     href="/images/cv.pdf"
                     download="Anouar_Baoutoul_CV.pdf"
-                    className="w-10 h-10 lg:w-12 lg:h-12 flex items-center justify-center rounded-xl text-gray-300 bg-gray-900 border border-gray-700 hover:bg-gray-800 hover:text-white transition-all mt-3"
+                    className="relative group w-10 h-10 lg:w-12 lg:h-12 flex items-center justify-center rounded-xl text-gray-300 bg-gray-900 border border-gray-700 hover:bg-gray-800 hover:text-white transition-all mt-3"
                     aria-label="Télécharger le CV"
                     title="Télécharger le CV"
                 >
                     <FaFileAlt size={18} />
+                    <span className="absolute left-full ml-2 top-1/2 -translate-y-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap shadow-lg">
+                        CV
+                    </span>
                 </a>
 
                 <motion.button

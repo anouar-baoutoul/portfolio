@@ -42,7 +42,7 @@ export default function Skills() {
           {skillSections.map((section) => (
             <div
               key={section.title}
-              className="rounded-2xl border border-gray-200/80 dark:border-gray-800 bg-white dark:bg-gray-950 p-6 min-h-[205px] shadow-sm hover:shadow-md transition-shadow"
+              className="rounded-2xl border border-gray-200/80 dark:border-gray-800 bg-white dark:bg-gray-950 p-6 min-h-[205px] shadow-sm will-change-transform hover:shadow-[0_22px_70px_-35px_rgba(37,99,235,0.85)] hover:border-blue-300/70 dark:hover:border-cyan-500/40 hover:-translate-y-2 hover:scale-[1.01] transition-all duration-150"
             >
               <h3 className="text-lg font-semibold mb-4 flex items-center gap-2 text-gray-900 dark:text-white">
                 <span className="text-blue-500 dark:text-cyan-400 mt-0.5">{section.icon}</span>

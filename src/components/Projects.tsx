@@ -29,7 +29,7 @@ export default function Projects() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1, duration: 0.5 }}
-                            className="bg-gray-50 dark:bg-gray-950 rounded-2xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800 flex flex-col hover:-translate-y-2 transition-transform duration-300"
+                            className="bg-gray-50 dark:bg-gray-950 rounded-2xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800 flex flex-col hover:-translate-y-3 hover:scale-[1.01] will-change-transform transition-all duration-150 hover:shadow-[0_20px_60px_-30px_rgba(59,130,246,0.70)] hover:border-blue-300/60 dark:hover:shadow-[0_20px_60px_-30px_rgba(34,211,238,0.35)] dark:hover:border-cyan-500/40"
                         >
                             <div className="h-48 bg-linear-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
                                 <img

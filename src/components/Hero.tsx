@@ -44,21 +44,44 @@ export default function Hero() {
           className="flex flex-col items-center gap-6"
         >
           <div className="flex space-x-6">
-            <a href="https://github.com/anouar-baoutoul" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/70 dark:bg-white/5 hover:bg-white dark:hover:bg-white/10 rounded-full transition-all hover:scale-110 shadow-lg backdrop-blur-sm border border-gray-200 dark:border-white/5">
+            <a
+              href="https://github.com/anouar-baoutoul"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative group p-3 bg-white/70 dark:bg-white/5 hover:bg-white dark:hover:bg-white/10 rounded-full transition-all hover:scale-110 shadow-lg backdrop-blur-sm border border-gray-200 dark:border-white/5"
+              aria-label="GitHub"
+              title="GitHub"
+            >
               <FaGithub size={24} />
+              <span className="absolute left-1/2 -top-8 -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap shadow-lg">
+                GitHub
+              </span>
             </a>
-            <a href="https://www.linkedin.com/in/anouar-baoutoul-701b5738a/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/70 dark:bg-white/5 hover:bg-white dark:hover:bg-white/10 rounded-full transition-all hover:scale-110 shadow-lg backdrop-blur-sm border border-gray-200 dark:border-white/5">
+            <a
+              href="https://www.linkedin.com/in/anouar-baoutoul-701b5738a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative group p-3 bg-white/70 dark:bg-white/5 hover:bg-white dark:hover:bg-white/10 rounded-full transition-all hover:scale-110 shadow-lg backdrop-blur-sm border border-gray-200 dark:border-white/5"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+            >
               <FaLinkedin size={24} />
+              <span className="absolute left-1/2 -top-8 -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap shadow-lg">
+                LinkedIn
+              </span>
             </a>
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=anoir.baoutoul@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-white/70 dark:bg-white/5 hover:bg-white dark:hover:bg-white/10 rounded-full transition-all hover:scale-110 shadow-lg backdrop-blur-sm border border-gray-200 dark:border-white/5"
+              className="relative group p-3 bg-white/70 dark:bg-white/5 hover:bg-white dark:hover:bg-white/10 rounded-full transition-all hover:scale-110 shadow-lg backdrop-blur-sm border border-gray-200 dark:border-white/5"
               aria-label="Ouvrir Gmail"
               title="Ouvrir Gmail"
             >
               <FaEnvelope size={24} />
+              <span className="absolute left-1/2 -top-8 -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap shadow-lg">
+                Email
+              </span>
             </a>
           </div>
           
