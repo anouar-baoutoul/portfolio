@@ -45,7 +45,7 @@ export const experiences: Experience[] = [
       "Conception de 9 microservices indépendants (User, Salon, Booking, Payment, Notification, Review, Category, Service Offering, API Gateway) avec Spring Boot et Spring Cloud Eureka",
       "Communication asynchrone inter-services via RabbitMQ",
       "Authentification OAuth2 avec Keycloak & JWT, notifications temps réel via WebSockets",
-      "Intégration des paiements Stripe & Razorpay",
+      "Intégration des paiements Stripe",
       "Frontend React + Redux Toolkit",
       "Déploiement complet via Docker Compose en une seule commande",
     ],

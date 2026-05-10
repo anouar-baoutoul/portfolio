@@ -1,8 +1,7 @@
-import { FaUser } from "react-icons/fa";
-import { FaArrowRight, FaEnvelope } from "react-icons/fa";
+import { FaUser, FaArrowRight, FaEnvelope } from "react-icons/fa";
 
 export default function About() {
-  const tags = ["Python", "FastAPI", "Laravel", "RAG", "MySQL", "Git/Linux"];
+  const tags = ["Python", "FastAPI", "Laravel", "RAG", "SQL Server", "Git/Linux"];
 
   return (
     <section id="about" className="py-20 bg-white text-gray-900 dark:bg-black dark:text-white">

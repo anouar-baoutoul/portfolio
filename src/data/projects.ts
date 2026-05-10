@@ -3,11 +3,11 @@ export const projectsData = [
     id: 1,
     title: "Salon Booking Platform",
     description:
-      "Plateforme de réservation de salons en architecture microservices. Gestion des rendez-vous, paiements en ligne (Stripe & Razorpay), notifications temps réel via WebSockets, authentification sécurisée avec Keycloak & JWT, et communication inter-services via RabbitMQ & OpenFeign.",
+      "Plateforme de réservation de salons en architecture microservices. Gestion des rendez-vous, paiements en ligne (Stripe), notifications temps réel via WebSockets, authentification sécurisée avec Keycloak & JWT, et communication inter-services via RabbitMQ & OpenFeign.",
     technologies: [
       "Spring Boot", "Spring Cloud", "JPA", "Hibernate",
       "RabbitMQ", "Eureka", "OpenFeign", "Keycloak", "JWT", "WebSockets",
-      "Stripe", "Razorpay", "MySQL",
+      "Stripe", "SQL Server",
       "React", "Redux Toolkit", "Tailwind CSS", "Axios",
       "Docker", "Docker Compose",
     ],
@@ -31,8 +31,8 @@ export const projectsData = [
     id: 3,
     title: "Projet de Gestion Bancaire",
     description:
-      "Application bureau en C++ permettant de gérer les clients, les comptes et les transactions (création, dépôt, retrait, historique).",
-    technologies: ["C++"],
+      "Application bureau en C permettant de gérer les clients, les comptes et les transactions (création, dépôt, retrait, historique).",
+    technologies: ["C"],
     github: "https://github.com/anouar-baoutoul/gestion-bancaire-",
     live: "",
     date: "Décembre 2024",
@@ -42,8 +42,8 @@ export const projectsData = [
     id: 4,
     title: "Système de Surveillance Intelligente d'Examens par IA",
     description:
-      "Développement d'un système de proctoring en temps réel basé sur la vision par ordinateur, avec détection automatique de comportements de triche pendant les examens. Le système intègre la détection de l'orientation de la tête, la reconnaissance de téléphones mobiles via YOLOv8, et le suivi des mouvements suspects avec OpenCV. Une interface web Flask assure la surveillance en direct avec alertes instantanées, capture automatique de snapshots et tableau de bord centralisé pour les superviseurs.",
-    technologies: ["Python", "Flask", "OpenCV", "YOLOv8", "Computer Vision"],
+      "Développement d'un système de proctoring en temps réel basé sur la vision par ordinateur, avec détection automatique de comportements de triche pendant les examens. Le système intègre la détection de l'orientation de la tête, la reconnaissance de téléphones mobiles via YOLOv26, et le suivi des mouvements suspects avec OpenCV. Une interface web Flask assure la surveillance en direct avec alertes instantanées, capture automatique de snapshots et tableau de bord centralisé pour les superviseurs.",
+    technologies: ["Python", "Flask", "OpenCV", "YOLOv26", "Computer Vision"],
     github: "https://github.com/anouar-baoutoul/exam-cheating-detection",
     live: "",
     date: "2026",
