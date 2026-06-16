@@ -3,7 +3,7 @@ export const projectsData = [
     id: 1,
     title: "Salon Booking Platform",
     description:
-      "Plateforme de réservation de salons en architecture microservices. Gestion des rendez-vous, paiements en ligne (Stripe), notifications temps réel via WebSockets, authentification sécurisée avec Keycloak & JWT, et communication inter-services via RabbitMQ & OpenFeign.",
+      "Développement full-stack d'une application de gestion de salon (rendez-vous, clients, personnel, services, produits, avis, présence, finances). Mise en place d'une architecture en couches avec authentification par rôles et audit automatique des entités. Génération de rapports PDF et documentation API interactive.",
     technologies: [
       "Spring Boot", "Spring Cloud", "JPA", "Hibernate",
       "RabbitMQ", "Eureka", "OpenFeign", "Keycloak", "JWT", "WebSockets",
