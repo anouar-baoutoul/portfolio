@@ -5,11 +5,8 @@ export const projectsData = [
     description:
       "Développement full-stack d'une application de gestion de salon (rendez-vous, clients, personnel, services, produits, avis, présence, finances). Mise en place d'une architecture en couches avec authentification par rôles et audit automatique des entités. Génération de rapports PDF et documentation API interactive.",
     technologies: [
-      "Spring Boot", "Spring Cloud", "JPA", "Hibernate",
-      "RabbitMQ", "Eureka", "OpenFeign", "Keycloak", "JWT", "WebSockets",
-      "Stripe", "SQL Server",
-      "React", "Redux Toolkit", "Tailwind CSS", "Axios",
-      "Docker", "Docker Compose",
+      "Spring Boot", "JPA", "Hibernate",
+      "OpenFeign", "JWT","WebSockets", "SQL Server","React", "Axios","Docker", "Docker Compose",
     ],
     github: "https://github.com/anouar-baoutoul/Salon-Booking",
     live: "",
