@@ -3,7 +3,7 @@ export const certificatesData = [
         id: 1,
         title: "Introduction à la programmation orientée objet (en C++)",
         issuer: "Coursera",
-        verifyUrl: "https://coursera.org/share/4579a347ea68d1f62c08eb1676ff3de9",
+        verifyUrl: "https://coursera.org/share/0bcda92fdadd78c239cb6f2725cecc7a",
         image: "/certificates/EPFL.png",
     },
 
