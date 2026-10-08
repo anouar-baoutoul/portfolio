@@ -140,7 +140,7 @@ This portfolio is deployed on **Vercel** with automatic deployments on every pus
 
 ## 📫 Contact
 
-- **Email:** [anouar.baoutoul@gmail.com](mailto:anoir.baoutoul@gmail.com)
+- **Email:** [anoir.baoutoul@gmail.com](mailto:anoir.baoutoul@gmail.com)
 - **LinkedIn:** [Anouar Baoutoul](https://www.linkedin.com/in/anouar-baoutoul/)
 - **GitHub:** [anouar-baoutoul](https://github.com/anouar-baoutoul)
 - **Portfolio:** [portfolio-anouar-baoutoul.vercel.app](https://portfolio-anouar-baoutoul.vercel.app/)
